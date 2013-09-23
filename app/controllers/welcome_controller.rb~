@@ -1,0 +1,5 @@
+class WelcomeController < ApplicationController
+  def index
+	render :text => "Hello from #{host}. Testing deploy when new revision. Again!"
+  end
+end
